@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PDF Redactor</title>
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/_style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <div id='stars'></div>
+    <div id='stars2'></div>
+    <div id='stars3'></div>
+    <div class="form-container">
+        <form action="/download" method="post" id="myForm" enctype="multipart/form-data"></form>
+            <div class="container-fluid">
+                <div class="form align-center">
+                    <div class="title">
+                        <h2><strong class="pdf">PDF</strong> Redactor</h2>
+                    </div>
+                    <div class="text-center inputs">
+                        <button id="redactFile" class="download-button" style ="margin-bottom: 25px;" type="button">DOWNLOAD FILE REDACT .ZIP</button>
+                    </div>
+                    <div class="text-center inputs">
+                        <button id="clickFile" class="download-button" style ="margin-bottom: 25px;" type="button">DOWNLOAD FILE CLICK .ZIP</button>
+                    </div>
+                    <div class="text-center inputs">
+                        <button id="retour" class="download-button" style ="margin-bottom: 25px;" type="button">Retour</button>
+                    </div>
+                    <div class="charging text-center" style="display: none;"></div>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+    <script type="text/javascript" src="js/back.js"></script>
+    <script src='js/jquery.min.js'></script>
+</body>
+
+</html>
